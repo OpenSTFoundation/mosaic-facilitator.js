@@ -19,7 +19,7 @@ class CoGateway {
       throw err;
     }
 
-    if (!Web3.utils.isAddress(gateway)) {
+    if (!Web3.utils.isAddress(coGateway)) {
       let err = new Error("Mandatory Parameter 'CoGateway' is missing or invalid.");
       throw err;
     }
